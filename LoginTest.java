@@ -12,7 +12,7 @@ public class LoginTest {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://bookcart.azurewebsites.net/");
-		driver.findElement(By.name("Login")).click();
+		driver.findElement(By.name("LogOut")).click();
 		driver.findElement(By.name("Username"));
 		driver.quit();
 		
